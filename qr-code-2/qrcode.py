@@ -2,7 +2,7 @@ import cv2
 from pylibdmtx.pylibdmtx import decode #bilioteca para ler o qr code
 
 # Lê o arquivo usando OpenCV
-data = cv2.imread('Imagem2.jpg')
+data = cv2.imread('Imagem3.jpg')
 
 # Busca o qr code na imagem de entrada
 decoded_data = decode(data)
